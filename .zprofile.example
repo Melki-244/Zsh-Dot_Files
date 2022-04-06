@@ -9,8 +9,8 @@ alias vim="nvim"
 plugins=(
     vi-mode
     git
-    zsh-autosuggestions
-    zsh-syntax-highlighting
+    zsh-autosuggestions #Custom
+    zsh-syntax-highlighting #Custom
     ssh-agent
 )
 
