@@ -1,11 +1,13 @@
-#Custom Aliases 
+#Custom Aiases 
 alias pip-R="rm -rf requirements.txt ; pip freeze > requirements.txt"
 alias le="exa --icons"
 alias li="exa --icons -la"
 alias venv="source ./venv/bin/activate"
 alias ssh-add-M="ssh-add ~/.ssh/MainKey_ed25519"
+alias vim="nvim"
 #Oh-my-zsh Plugins
 plugins=(
+    vi-mode
     git
     zsh-autosuggestions
     zsh-syntax-highlighting
@@ -16,6 +18,3 @@ plugins=(
 zstyle :omz:plugins:ssh-agent agent-forwarding yes
 zstyle :omzplugins:ssh-agent helper ksshaskpass:
 zstyle :omz:plugins:ssh-agent identities MainKey_ed25519
-
-
-
