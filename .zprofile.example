@@ -9,12 +9,12 @@ alias vim="nvim"
 plugins=(
     vi-mode
     git
-    zsh-autosuggestions #Custom
-    zsh-syntax-highlighting #Custom
-    ssh-agent
+    #zsh-autosuggestions #Custom
+    #zsh-syntax-highlighting #Custom
+    #ssh-agent
 )
 
 # User configuration Plugins
-zstyle :omz:plugins:ssh-agent agent-forwarding yes
-zstyle :omzplugins:ssh-agent helper ksshaskpass:
-zstyle :omz:plugins:ssh-agent identities MainKey_ed25519
+#zstyle :omz:plugins:ssh-agent agent-forwarding yes
+#zstyle :omzplugins:ssh-agent helper ksshaskpass:
+#zstyle :omz:plugins:ssh-agent identities MainKey_ed25519

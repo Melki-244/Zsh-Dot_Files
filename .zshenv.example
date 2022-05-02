@@ -1,7 +1,7 @@
 #Path From Cargo 
-export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
+#export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
 #Path From asdf 
 source /opt/asdf-vm/asdf.sh
 # Exporting Gpg Key 
-export GPG_TTY=$(tty)
+#export GPG_TTY=$(tty)
 
